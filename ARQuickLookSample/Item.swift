@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import QuickLook
 
 struct Item {
     let name: String
