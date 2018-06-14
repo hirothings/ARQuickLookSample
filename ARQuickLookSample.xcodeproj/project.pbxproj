@@ -12,6 +12,15 @@
 		5404A88F20CFD00E00280F72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5404A88D20CFD00E00280F72 /* Main.storyboard */; };
 		5404A89120CFD00F00280F72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5404A89020CFD00F00280F72 /* Assets.xcassets */; };
 		5404A89420CFD00F00280F72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5404A89220CFD00F00280F72 /* LaunchScreen.storyboard */; };
+		5404A89C20CFD19C00280F72 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5404A89B20CFD19C00280F72 /* Item.swift */; };
+		547D8C2F20CFDB990007F472 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547D8C2D20CFDB990007F472 /* ItemCollectionViewCell.swift */; };
+		547D8C3020CFDB990007F472 /* ItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 547D8C2E20CFDB990007F472 /* ItemCollectionViewCell.xib */; };
+		5493A1E420CFE7A200AB697D /* wheelbarrow.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 5493A1DE20CFE7A200AB697D /* wheelbarrow.usdz */; };
+		5493A1E520CFE7A200AB697D /* gramophone.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 5493A1DF20CFE7A200AB697D /* gramophone.usdz */; };
+		5493A1E620CFE7A200AB697D /* wateringcan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 5493A1E020CFE7A200AB697D /* wateringcan.usdz */; };
+		5493A1E720CFE7A200AB697D /* trowel.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 5493A1E120CFE7A200AB697D /* trowel.usdz */; };
+		5493A1E820CFE7A200AB697D /* retrotv.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 5493A1E220CFE7A200AB697D /* retrotv.usdz */; };
+		5493A1E920CFE7A200AB697D /* teapot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 5493A1E320CFE7A200AB697D /* teapot.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		5404A89020CFD00F00280F72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5404A89320CFD00F00280F72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5404A89520CFD00F00280F72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5404A89B20CFD19C00280F72 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		547D8C2D20CFDB990007F472 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		547D8C2E20CFDB990007F472 /* ItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCollectionViewCell.xib; sourceTree = "<group>"; };
+		5493A1DE20CFE7A200AB697D /* wheelbarrow.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = wheelbarrow.usdz; sourceTree = "<group>"; };
+		5493A1DF20CFE7A200AB697D /* gramophone.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = gramophone.usdz; sourceTree = "<group>"; };
+		5493A1E020CFE7A200AB697D /* wateringcan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = wateringcan.usdz; sourceTree = "<group>"; };
+		5493A1E120CFE7A200AB697D /* trowel.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = trowel.usdz; sourceTree = "<group>"; };
+		5493A1E220CFE7A200AB697D /* retrotv.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = retrotv.usdz; sourceTree = "<group>"; };
+		5493A1E320CFE7A200AB697D /* teapot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = teapot.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +72,31 @@
 		5404A88820CFD00E00280F72 /* ARQuickLookSample */ = {
 			isa = PBXGroup;
 			children = (
+				5404A89D20CFD59700280F72 /* Resources */,
 				5404A88920CFD00E00280F72 /* AppDelegate.swift */,
 				5404A88B20CFD00E00280F72 /* ViewController.swift */,
+				5404A89B20CFD19C00280F72 /* Item.swift */,
 				5404A88D20CFD00E00280F72 /* Main.storyboard */,
 				5404A89020CFD00F00280F72 /* Assets.xcassets */,
 				5404A89220CFD00F00280F72 /* LaunchScreen.storyboard */,
 				5404A89520CFD00F00280F72 /* Info.plist */,
+				547D8C2D20CFDB990007F472 /* ItemCollectionViewCell.swift */,
+				547D8C2E20CFDB990007F472 /* ItemCollectionViewCell.xib */,
 			);
 			path = ARQuickLookSample;
+			sourceTree = "<group>";
+		};
+		5404A89D20CFD59700280F72 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5493A1DF20CFE7A200AB697D /* gramophone.usdz */,
+				5493A1E220CFE7A200AB697D /* retrotv.usdz */,
+				5493A1E320CFE7A200AB697D /* teapot.usdz */,
+				5493A1E120CFE7A200AB697D /* trowel.usdz */,
+				5493A1E020CFE7A200AB697D /* wateringcan.usdz */,
+				5493A1DE20CFE7A200AB697D /* wheelbarrow.usdz */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +158,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				5404A89420CFD00F00280F72 /* LaunchScreen.storyboard in Resources */,
+				5493A1E520CFE7A200AB697D /* gramophone.usdz in Resources */,
 				5404A89120CFD00F00280F72 /* Assets.xcassets in Resources */,
+				5493A1E420CFE7A200AB697D /* wheelbarrow.usdz in Resources */,
+				5493A1E920CFE7A200AB697D /* teapot.usdz in Resources */,
+				5493A1E720CFE7A200AB697D /* trowel.usdz in Resources */,
+				5493A1E620CFE7A200AB697D /* wateringcan.usdz in Resources */,
+				547D8C3020CFDB990007F472 /* ItemCollectionViewCell.xib in Resources */,
 				5404A88F20CFD00E00280F72 /* Main.storyboard in Resources */,
+				5493A1E820CFE7A200AB697D /* retrotv.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +178,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5404A88C20CFD00E00280F72 /* ViewController.swift in Sources */,
+				547D8C2F20CFDB990007F472 /* ItemCollectionViewCell.swift in Sources */,
+				5404A89C20CFD19C00280F72 /* Item.swift in Sources */,
 				5404A88A20CFD00E00280F72 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +327,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G6788ACX5G;
 				INFOPLIST_FILE = ARQuickLookSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +346,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G6788ACX5G;
 				INFOPLIST_FILE = ARQuickLookSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
