@@ -1,4 +1,4 @@
-# AR QuickLook Sample
+# AR Quick Look Sample
 
 * iOS12~
 * Xcode10.0~
